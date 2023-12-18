@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Invisible Utopia</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header>
+  <nav>
+    <div class="logo">Invisible Utopia</div>
+    <ul class="menu">
+      <li><a href="#about">About</a></li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+<section id="hero">
+  <h1>Welcome to Invisible Utopia</h1>
+  <p>Investing in Your Future</p>
+  <a href="#contact" class="cta-button">Get Started</a>
+</section>
+
+<section id="about">
+  <h2>About Us</h2>
+  <p>Learn about our mission and vision...</p>
+</section>
+
+<section id="services">
+  <h2>Our Services</h2>
+  <p>Discover how we can help you...</p>
+</section>
+
+<section id="contact">
+  <h2>Contact Us</h2>
+  <p>Get in touch with our team...</p>
+</section>
+
+<footer>
+  <p>&copy; 2023 Invisible Utopia. All Rights Reserved.</p>
+</footer>
+</body>
+</html>
+
+
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 0;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.menu {
+  list-style-type: none;
+  padding: 0;
+}
+
+.menu li {
+  display: inline;
+  margin-right: 20px;
+}
+
+.menu li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+#hero {
+  background-image: url('path/to/hero-image.jpg');
+  background-size: cover;
+  color: #fff;
+  text-align: center;
+  padding: 100px 0;
+}
+
+.cta-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #ff4500;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+section {
+  padding: 50px 0;
+  text-align: center;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+}
